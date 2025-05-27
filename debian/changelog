@@ -1,5 +1,32 @@
-template-repository (1.0-1) unstable; urgency=medium
+libdbusmenu-lxqt (0.2.0-1) unstable; urgency=medium
 
-  * Initial release
+  [ ChangZhuo Chen (陳昌倬) ]
+  * d/salsa-ci.yml: remove unused salsa config.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Andrew Lee (李健秋) ]
+  * New upstream version 0.2.0.
+  * debian/control: build-deps on lxqt-build-tools (>= 2.1.0~).
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 28 Nov 2024 22:20:14 +0100
+
+libdbusmenu-lxqt (0.1.0-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Mon, 25 Nov 2024 13:25:14 +0100
+
+libdbusmenu-lxqt (0.1.0-1~exp2) experimental; urgency=medium
+
+  * debian/control: build-deps on qt6-base-dev (>= 6.7.2).
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 06 Oct 2024 13:08:36 +0200
+
+libdbusmenu-lxqt (0.1.0-1~exp1) experimental; urgency=medium
+
+  [ S. 7 ]
+  * Initial release. (Closes:#1082577)
+
+  [ Andrew Lee (李健秋) ]
+  * debian/control: improve package descriptions.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 25 Sep 2024 18:06:52 +0200
